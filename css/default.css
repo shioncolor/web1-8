@@ -51,13 +51,13 @@ div.img#help{background-position: 0 -148px;}
 div.img#faq{background-position: 0 -184px;}
 
 #gnav a:hover{
-background: lightgreen;
-  color:black;
+  background: lightgreen;
+  color: black;
 }
 
 #gnva a.selected{
-background:white;
-  color:darkgreen;
+  background: white;
+  color: darkgreen;
   font-weight: bold;
 }
 
