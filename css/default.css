@@ -24,7 +24,10 @@ width: 100px;
   text-decoration: none;
   color: white;
 }
-
+#gnva a:hover{
+ background: lightgreen;
+ color:black;
+}
 #gnava:after{
 clear: both;
 }
@@ -42,6 +45,7 @@ clear: both;
   vertical-align: middle;
   padding:10px 5px;
 }
+
 div.img#home{background-position: 0 0px;}
 div.img#content1{background-position: 0 -46px;}
 div.img#content2{background-position: 0 -92px;}
