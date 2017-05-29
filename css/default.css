@@ -4,15 +4,49 @@ body{
 background-color: mediumaquamarine
 }
 
+#logo ul{
+overflow: hidden;
+}
+
+#logo li{
+display: table-cell;
+  vertical-align: middle;
+list-style-type: none;
+}
+
+#logo img{
+width: 100px;
+}
+
 #gnav a{
   display:block;
-  padding:10px 0;
   text-align: center;
   text-decoration: none;
-  background: darkgreen;
   color: white;
 }
 
+#gnava:after{
+clear: both;
+}
+
+#gnav div.img{
+  display:table-cell;
+  vertical-align: middle;
+  background: url(..banana-1-big.gif)no-repeat;
+  width: 55px;
+  height: 46px;
+}
+
+#gnav div.text{
+  display:table-cell;
+  vertical-align: middle;
+  padding:10px 5px;
+}
+div.img#home{background-position: 0 0px;}
+div.img#content1{background-position: 0 -46px;}
+div.img#content2{background-position: 0 -92px;}
+div.img#help{background-position: 0 -148px;}
+div.img#faq{background-position: 0 -184px;}
 #gnav a:hover{
 background: lightgreen;
   color:black;
